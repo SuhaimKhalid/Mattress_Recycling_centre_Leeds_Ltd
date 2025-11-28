@@ -13,6 +13,9 @@ nav {
   font-size: 20px;
   color: white !important;
 }
+.navbar-toggler {
+  background-color: white;
+}
 
 /* Header CSS End */
 
@@ -60,3 +63,25 @@ footer li a {
   color: white !important;
 }
 /* Footer CSS End */
+
+@media screen and (max-width: 992px) {
+  .navbar-collapse a {
+    text-align: center;
+  }
+  .about_section {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .img_col {
+    padding: 0px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  footer .info_footer {
+    text-align: center;
+  }
+  .info_footer li {
+    margin: 5px;
+  }
+}
