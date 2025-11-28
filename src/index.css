@@ -1,0 +1,62 @@
+/* Header CSS Start */
+.nav_logo {
+  width: 100px;
+  border-radius: 50%;
+}
+nav {
+  background-color: #34353a;
+}
+.navbar-collapse {
+  justify-content: right;
+}
+.nav-item a {
+  font-size: 20px;
+  color: white !important;
+}
+
+/* Header CSS End */
+
+/* About CSS Start */
+.about_section {
+  width: 60%;
+  text-align: justify;
+  margin: 50px auto;
+  font-size: 19px;
+}
+.about_section p {
+}
+.second_section li {
+  font-size: 18px;
+}
+/* About CSS End */
+
+/* Footer CSS Start */
+footer {
+  border-top: 2px solid #bdbaba;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #34353a;
+  color: white;
+}
+footer .footer_logo {
+  width: 100px;
+  border-radius: 50%;
+}
+footer .img_col {
+  text-align: start;
+  padding-left: 100px;
+}
+footer .info_footer {
+  align-items: center;
+}
+footer p {
+  margin: 20px;
+  text-align: center;
+}
+footer li {
+  font-size: 17px !important;
+}
+footer li a {
+  color: white !important;
+}
+/* Footer CSS End */
