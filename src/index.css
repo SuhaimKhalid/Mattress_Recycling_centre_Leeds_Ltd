@@ -30,75 +30,6 @@ nav .row {
   background-color: white;
 }
 /* Header CSS End */
-
-/* Footer CSS Start */
-footer {
-  border-top: 2px solid #bdbaba;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #34353a;
-  color: white;
-}
-footer .footer_logo {
-  width: 100px;
-  border-radius: 50%;
-}
-footer .img_col {
-  text-align: start;
-  padding-left: 100px;
-}
-footer .info_footer {
-  align-items: center;
-}
-footer p {
-  margin: 20px;
-  text-align: center;
-}
-footer li {
-  font-size: 17px !important;
-}
-footer li a {
-  color: white !important;
-}
-/* Footer CSS End */
-
-@media screen and (max-width: 1200px) {
-  .nav-heading-text {
-    margin-right: 67px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .navbar-collapse a {
-    text-align: center;
-  }
-
-  .nav-heading-text {
-    margin-right: 5px;
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 767px) {
-  .nav-heading-text {
-    margin-right: -7px;
-    font-size: 1.3rem;
-  }
-  footer .img_col {
-    padding: 0px;
-    margin: 20px 0px;
-    text-align: center;
-  }
-  footer .info_footer {
-    text-align: center;
-  }
-  .info_footer li {
-    margin: 5px;
-  }
-}
-@media screen and (max-wdth: 567px) {
-  .navbar .log {
-    margin-left: -80px;
-  }
-}
 /* Mission Section */
 .mission_section {
   margin-top: 120px;
@@ -154,3 +85,120 @@ footer li a {
 }
 
 /* Image Section End */
+
+/* Footer CSS Start */
+footer {
+  border-top: 2px solid #bdbaba;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #34353a;
+  color: white;
+}
+footer .row {
+  align-items: center;
+}
+footer .img_col iframe {
+  width: 100%;
+}
+footer .footer_logo {
+  width: 100px;
+  border-radius: 50%;
+}
+footer .img_col {
+  text-align: start;
+  padding-left: 100px;
+}
+footer .info_footer {
+  align-items: center;
+}
+footer p {
+  margin: 20px;
+  text-align: center;
+}
+footer li {
+  font-size: 17px !important;
+}
+footer li a {
+  color: white !important;
+}
+/* Footer CSS End */
+
+@media screen and (max-width: 1200px) {
+  .nav-heading-text {
+    margin-right: 67px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-collapse a {
+    text-align: center;
+  }
+
+  .nav-heading-text {
+    margin-right: 5px;
+    font-size: 1.5rem;
+  }
+  footer .info_footer {
+    text-align: center;
+  }
+  .info_footer li {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar .logo {
+    margin-left: -20px;
+  }
+  .navbar .logo img {
+    width: 80px;
+  }
+  .nav-heading-text {
+    margin-right: -7px;
+    font-size: 1.3rem;
+  }
+  .mission_section {
+    margin-top: 90px;
+    width: 100%;
+  }
+  .email-text {
+    word-break: break-all;
+  }
+  .mission_section .mission_text {
+    width: 100%;
+    text-align: justify;
+  }
+  footer .img_col {
+    padding: 0px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  footer p {
+    margin: 10px 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar .logo {
+    margin-left: 0px;
+  }
+  .nav-heading-text {
+    margin-right: -60px;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar .logo {
+    margin-left: 0px;
+  }
+  .nav-heading-text {
+    margin-right: -60px;
+    font-size: 1.3rem;
+  }
+  .navbar .logo img {
+    width: 60px;
+  }
+  .nav-heading-text {
+    font-size: 90%;
+  }
+  .mission_section {
+    margin-top: 75px;
+  }
+}
