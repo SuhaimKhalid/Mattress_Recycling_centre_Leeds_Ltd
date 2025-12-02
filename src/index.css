@@ -198,6 +198,8 @@ footer li a {
   }
   .nav-heading-text {
     font-size: 90%;
+    margin-right: -20px;
+    padding-top: 10px;
   }
   .mission_section {
     margin-top: 75px;
